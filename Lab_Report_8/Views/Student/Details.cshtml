@@ -1,0 +1,35 @@
+﻿@model MVCWelcomeApp.Models.Student
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Details</title>
+</head>
+
+<body>
+
+    <h2>Student Details</h2>
+
+    <p><strong>Student ID:</strong> @Model.Id</p>
+
+    <p><strong>Name:</strong> @Model.Name</p>
+
+    <p><strong>Faculty:</strong> @Model.Faculty</p>
+
+    <p><strong>Semester:</strong> @Model.Semester</p>
+
+    <p><strong>Address:</strong> @Model.Address</p>
+
+    <hr />
+
+    <h3>Welcome, @Model.Name!</h3>
+
+    <p>
+        You are currently studying
+        <strong>@Model.Faculty</strong>
+        in Semester
+        <strong>@Model.Semester</strong>.
+    </p>
+
+</body>
+</html>
