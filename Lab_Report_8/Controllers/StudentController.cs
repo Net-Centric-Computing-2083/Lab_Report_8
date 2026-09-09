@@ -1,7 +1,8 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using Lab_Report_8.Models;
+﻿using Lab8.Models;
+using Lab8.Models;
+using Microsoft.AspNetCore.Mvc;
 
-namespace Lab_Report_8.Controllers
+namespace LabReport8.Controllers
 {
     public class StudentController : Controller
     {
@@ -10,9 +11,8 @@ namespace Lab_Report_8.Controllers
             Student student = new Student
             {
                 Id = 1,
-                Name = "Amrita Singh",
-                Department = "Computer Engineering",
-                Cgpa = 3.75
+                Name = "Rusha Pokharel",
+                Course = "CSIT"
             };
 
             return View(student);
