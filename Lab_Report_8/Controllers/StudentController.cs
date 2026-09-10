@@ -9,10 +9,10 @@ namespace Lab_Report_8.Controllers
         {
             Student student = new Student
             {
-                Id = 1,
-                Name = "Amrita Singh",
+                Id = 18,
+                Name = "Sagar Shrestha",
                 Department = "Computer Engineering",
-                Cgpa = 3.75
+                Cgpa = 3.55
             };
 
             return View(student);
