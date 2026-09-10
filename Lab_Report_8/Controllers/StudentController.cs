@@ -9,10 +9,10 @@ namespace Lab_Report_8.Controllers
         {
             Student student = new Student
             {
-                Id = 1,
-                Name = "Amrita Singh",
-                Department = "Computer Engineering",
-                Cgpa = 3.75
+                Id = 80010950,
+                Name = "Saurav Basnet",
+                Faculty = "BSc CSIT",
+                Email = "sauravcsit23@oic.edu.np"
             };
 
             return View(student);
