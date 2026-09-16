@@ -4,7 +4,8 @@
     {
         public int Id { get; set; }
         public string Name { get; set; } = string.Empty;
-        public string Department { get; set; } = string.Empty;
-        public double Cgpa { get; set; }
+        public string RollNumber { get; set; } = string.Empty;
+        public string Program { get; set; } = string.Empty;
+        public int Semester { get; set; }
     }
 }

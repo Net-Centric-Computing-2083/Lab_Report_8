@@ -10,9 +10,10 @@ namespace Lab_Report_8.Controllers
             Student student = new Student
             {
                 Id = 1,
-                Name = "Amrita Singh",
-                Department = "Computer Engineering",
-                Cgpa = 3.75
+                Name = "Shreebisha Shrestha",
+                RollNumber = "80010951",
+                Program = "BSc CSIT",
+                Semester = 6
             };
 
             return View(student);
